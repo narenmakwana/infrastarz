@@ -1,0 +1,18 @@
+<md-sidenav-layout>
+  <md-sidenav #sidenav [mode]="_navigation.mediumScreenAndDown ? 'over' : 'side'" [opened]="showSidenav" (close)="sidenavToggle(false)" (open)="sidenavToggle(true)">
+    <app-sidenav></app-sidenav>
+  </md-sidenav>
+  <header>
+    <app-topnav [sideNav]="sidenav"></app-topnav>
+  </header>
+
+  <main>
+    <div class="container">
+      <router-outlet></router-outlet>
+      <div class="clearfix"></div>
+    </div>
+  </main>
+  <footer>
+    <c-footer></c-footer>
+  </footer>
+</md-sidenav-layout>

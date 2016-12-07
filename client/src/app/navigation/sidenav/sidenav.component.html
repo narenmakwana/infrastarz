@@ -1,0 +1,7 @@
+<md-toolbar color="primary">
+  <img src="/assets/images/logo-inverse.png" class="logo">
+   &nbsp;INFRASTARZ
+</md-toolbar>
+<md-nav-list class="side-navigation" [ngStyle]="{'height': height}">
+  <c-sidenav-item *ngFor="let menuItem of menuItems" [menuItem]="menuItem" [parent]="_this"></c-sidenav-item>
+</md-nav-list>

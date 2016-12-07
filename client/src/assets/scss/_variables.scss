@@ -1,0 +1,33 @@
+
+@import '../../../node_modules/@angular/material/core/theming/all-theme';
+@include md-core();
+$primary-palette: md-palette($md-blue, 700, 400, 900);
+$accent-palette: md-palette($md-deep-orange);
+$core-theme: md-light-theme($primary-palette, $accent-palette);
+@include angular-material-theme($core-theme);
+
+$primary-color: map_get($primary-palette, 700);
+$secondary-color: map_get($accent-palette, 700);
+
+
+
+$border-radius: 2px;
+$enable-shadows: true;
+
+
+$roboto-font-path: "../node_modules/materialize-css/fonts/roboto/" !default;
+$font-color: rgba(0, 0, 0, .7);
+
+
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;

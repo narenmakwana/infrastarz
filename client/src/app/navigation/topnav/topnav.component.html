@@ -1,0 +1,38 @@
+<md-progress-bar mode="indeterminate" color="primary" *ngIf="_isLoadingRoute"></md-progress-bar>
+<md-toolbar [color]="_navigation.mediumScreenAndDown ? 'primary' : null">
+  <button md-icon-button (click)="toggleSidenav()" id="menu-toggler">
+    <md-icon>menu</md-icon>
+  </button>
+
+  <span class="breadcrumb-holder" *ngIf="_navigation.largeScreen">
+    <span *ngFor="let breadcrumb of _breadcrumbs" class="breadcrumb">
+      <a *ngIf="breadcrumb.link !== null" [routerLink]="breadcrumb.link" class="breadcrumb-link">{{breadcrumb.title}}</a>
+      <a *ngIf="breadcrumb.link === null" class="breadcrumb-link">{{breadcrumb.title}}</a>
+    </span>
+    <span class="breadcrumb">{{_pageTitle}}</span>
+  </span>
+  <span *ngIf="_navigation.mediumScreenAndDown && (_breadcrumbs.length === 0 || _autoBreadcrumbs)">
+    {{_pageTitle}}
+  </span>
+
+  <span class="app-flex-filler"></span>
+  <button md-icon-button [md-menu-trigger-for]="menu" id="user-dropdown-toggler">
+    Narendra Makwana
+    <md-icon>keyboard_arrow_down</md-icon>
+  </button>
+  <md-menu #menu="mdMenu" x-position="before">
+    <button md-menu-item> Refresh</button>
+    <button md-menu-item> Settings</button>
+    <button md-menu-item> Help</button>
+    <button md-menu-item disabled> Sign Out</button>
+  </md-menu>
+  <md-toolbar-row *ngIf="_navigation.mediumScreenAndDown && _breadcrumbs.length > 0 && !_autoBreadcrumbs">
+    <span class="breadcrumb-holder">
+      <span *ngFor="let breadcrumb of _breadcrumbs" class="breadcrumb">
+        <a *ngIf="breadcrumb.link !== null" [routerLink]="breadcrumb.link" class="breadcrumb-link">{{breadcrumb.title}}</a>
+        <a *ngIf="breadcrumb.link === null" class="breadcrumb-link">{{breadcrumb.title}}</a>
+      </span>
+      <span class="breadcrumb">{{_pageTitle}}</span>
+    </span>
+  </md-toolbar-row>
+</md-toolbar>

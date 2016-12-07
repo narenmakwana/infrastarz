@@ -1,0 +1,269 @@
+license-checker --production
+
+├─ @angular/common@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/compiler@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/core@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/forms@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/forms@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/http@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/material@2.0.0-alpha.9-3
+│  ├─ licenses: MIT
+│  └─ repository: https://github.com/angular/material2
+├─ @angular/platform-browser-dynamic@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/platform-browser@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @angular/router@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/angular/angular
+│  └─ publisher: angular
+├─ @types/hammerjs@2.0.33
+│  ├─ licenses: MIT
+│  ├─ repository: https://wwwhub.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ publisher: Philip Bulley
+│  └─ email: https://github.com/milkisevil/
+├─ angular-highcharts@0.6.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/cebor/angular-highcharts
+│  ├─ publisher: Felix Itzenplitz
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/angular-highcharts/LICENSE
+├─ angular2-materialize@5.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/InfomediaLtd/angular2-materialize
+│  ├─ publisher: Ruby Boyarski
+│  ├─ email: rubyboy@gmail.com
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/angular2-materialize/LICENSE
+├─ balanced-match@0.4.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/balanced-match
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  ├─ url: http://juliangruber.com
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/balanced-match/LICENSE.md
+├─ block-stream@0.0.9
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/block-stream
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/block-stream/LICENSE
+├─ brace-expansion@1.1.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/brace-expansion
+│  ├─ publisher: Julian Gruber
+│  ├─ email: mail@juliangruber.com
+│  └─ url: http://juliangruber.com
+├─ concat-map@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-concat-map
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/concat-map/LICENSE
+├─ core-js@2.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zloirock/core-js
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/core-js/LICENSE
+├─ core@0.0.0
+│  └─ licenses: MIT
+├─ font-awesome@4.6.3
+│  ├─ licenses: (OFL-1.1 AND MIT)
+│  ├─ repository: https://github.com/FortAwesome/Font-Awesome
+│  ├─ publisher: Dave Gandy
+│  ├─ email: dave@fontawesome.io
+│  └─ url: http://twitter.com/davegandy
+├─ fs.realpath@1.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/fs.realpath
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/fs.realpath/LICENSE
+├─ fstream@0.1.31
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/isaacs/fstream
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/fstream/LICENSE
+├─ glob@7.0.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/glob/LICENSE
+├─ graceful-fs@3.0.11
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-graceful-fs
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/graceful-fs/LICENSE
+├─ hammerjs@2.0.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/hammerjs/hammer.js
+│  ├─ publisher: Jorik Tangelder
+│  ├─ email: j.tangelder@gmail.com
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/hammerjs/LICENSE.md
+├─ highcharts@4.2.6
+│  ├─ licenses: https://www.highcharts.com/license
+│  ├─ repository: https://github.com/highcharts/highcharts-dist
+│  ├─ publisher: Highsoft AS
+│  ├─ email: support@highcharts.com
+│  └─ url: http://www.highcharts.com/about
+├─ inflight@1.0.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/inflight
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/inflight/LICENSE
+├─ inherits@2.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/inherits
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/inherits/LICENSE
+├─ jquery@2.2.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jquery/jquery
+│  ├─ publisher: jQuery Foundation and other contributors
+│  ├─ url: https://github.com/jquery/jquery/blob/2.2.4/AUTHORS.txt
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/jquery/LICENSE.txt
+├─ materialize-css@0.97.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Dogfalo/materialize
+│  ├─ publisher: Alvin Wang, Alan Chang
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/materialize-css/LICENSE
+├─ minimatch@3.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minimatch
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/minimatch/LICENSE
+├─ minimist@0.0.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/minimist
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/minimist/LICENSE
+├─ mkdirp@0.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-mkdirp
+│  ├─ publisher: James Halliday
+│  ├─ email: mail@substack.net
+│  ├─ url: http://substack.net
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/mkdirp/LICENSE
+├─ natives@1.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/natives
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  └─ url: http://blog.izs.me/
+├─ node-archiver@0.2.0
+│  ├─ licenses: UNKNOWN
+│  ├─ repository: https://github.com/richardbolt/node-archiver
+│  ├─ publisher: Richard Bolt
+│  └─ email: richard@richardbolt.com
+├─ once@1.4.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/once
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/once/LICENSE
+├─ path-is-absolute@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-is-absolute
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/path-is-absolute/license
+├─ primeng@1.0.0-beta.15
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/primefaces/primeng
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/primeng/LICENSE.md
+├─ primeui@4.1.15
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/primefaces/primeui-distribution
+│  ├─ publisher: PrimeTek
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/primeui/LICENSE
+├─ prismjs@1.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/LeaVerou/prism
+│  ├─ publisher: Lea Verou
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/prismjs/LICENSE
+├─ rimraf@2.5.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/rimraf
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/rimraf/LICENSE
+├─ rxjs@5.0.0-beta.12
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/ReactiveX/RxJS
+│  ├─ publisher: Ben Lesh
+│  ├─ email: blesh@netflix.com
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/rxjs/LICENSE.txt
+├─ symbol-observable@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/blesh/symbol-observable
+│  ├─ publisher: Ben Lesh
+│  ├─ email: ben@benlesh.com
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/symbol-observable/license
+├─ tar@0.1.20
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/isaacs/node-tar
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/tar/LICENCE
+├─ ts-helpers@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ngParty/ts-helpers
+│  ├─ publisher: Martin Hochel
+│  ├─ email: hochelmartin@gmail.com
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/ts-helpers/LICENSE
+├─ typescript@2.0.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/Microsoft/TypeScript
+│  ├─ publisher: Microsoft Corp.
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/typescript/LICENSE.txt
+├─ wrappy@1.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/wrappy
+│  ├─ publisher: Isaac Z. Schlueter
+│  ├─ email: i@izs.me
+│  ├─ url: http://blog.izs.me/
+│  └─ licenseFile: /Users/nrichardson/Source/core/node_modules/wrappy/LICENSE
+└─ zone.js@0.6.23
+   ├─ licenses: MIT
+   ├─ repository: https://github.com/angular/zone.js
+   ├─ publisher: Brian Ford
+   └─ licenseFile: /Users/nrichardson/Source/core/node_modules/zone.js/LICENSE.wrapped
+
+
