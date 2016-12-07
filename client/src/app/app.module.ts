@@ -14,8 +14,6 @@ import {GithubService} from './shared/services/github.service';
 import {BaseService} from './shared/services/base.service';
 import {MaterialModule} from '@angular/material';
 import {AgmCoreModule} from 'angular2-google-maps/core';
-import {Angulartics2Module} from 'angulartics2';
-import {Angulartics2GoogleAnalytics} from 'angulartics2/src/providers/angulartics2-ga';
 
 @NgModule({
   declarations : [
@@ -32,11 +30,10 @@ import {Angulartics2GoogleAnalytics} from 'angulartics2/src/providers/angulartic
     AgmCoreModule.forRoot({
       apiKey : 'YOUR_API_KEY_HERE' // Enter your key here!
     }),
-    Angulartics2Module.forRoot(),
     MaterialModule.forRoot(),
     MaterializeModule
   ],
-  providers : [BaseService, GithubService, Angulartics2GoogleAnalytics],
+  providers : [BaseService, GithubService],
   entryComponents : [AppComponent],
   bootstrap : [AppComponent]
 })

@@ -2,8 +2,6 @@ import {Component, ElementRef} from '@angular/core';
 import {NavigationService} from './navigation/navigation.service';
 import {HostListener} from '@angular/core/src/metadata/directives';
 import {Router, Event, NavigationStart, NavigationEnd} from '@angular/router';
-import {Angulartics2GoogleAnalytics} from 'angulartics2/src/providers/angulartics2-ga';
-import {Angulartics2} from 'angulartics2';
 
 @Component({
   selector : 'app-root',
@@ -14,7 +12,7 @@ export class AppComponent {
   private showSidenav: boolean;
   private pageTitle: string;
 
-  constructor(private _navigation: NavigationService, private _router: Router, private _elementRef: ElementRef, private _angulartics2: Angulartics2, private _angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics) {
+  constructor(private _navigation: NavigationService, private _router: Router, private _elementRef: ElementRef) {
     this._router.events.subscribe((event: Event) => {
       if(event instanceof NavigationStart) {
         this._navigation.setCurrentRoute((<NavigationEnd>event).url);
